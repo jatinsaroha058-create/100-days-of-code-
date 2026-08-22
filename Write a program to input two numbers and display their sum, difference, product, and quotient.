@@ -1,0 +1,13 @@
+# Write-a-program-to-input-two-numbers-and-display-their-sum-difference-product-and-quotient.
+#include <stdio.h>
+main(){
+int a,b;
+
+printf("input two numbers = ");
+scanf("%d,%d",&a,&b);
+
+printf("\nsum of two numbers = %d",a+b);
+printf("\ndifference = %d",a-b);
+printf("\nproduct = %d",a*b);
+printf("\ndivision = %d",a/b);
+}
