@@ -1,0 +1,10 @@
+# Write-a-program-to-calculate-the-area-and-perimeter-of-a-rectangle-given-its-length-and-breadth.
+#include <stdio.h>
+main(){
+int a,b;
+printf("length,bredth of rectangle are = ");
+scanf("%d,%d",&a,&b);
+
+printf("\narea of rectangle is = %d",a*b);
+printf("\nperimeter of rectangle is = %d",2*(a+b));
+}
