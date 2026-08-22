@@ -1,0 +1,9 @@
+# Write-a-program-to-input-two-numbers-and-display-their-sum.
+#include <stdio.h>
+main(){
+int a,b;
+printf("input two numbers = ");
+scanf("%d,%d",&a,&b);
+
+printf("sum of two integers = \n%d",a+b);
+}
